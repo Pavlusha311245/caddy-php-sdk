@@ -1,0 +1,48 @@
+{
+  "name": "pavlusha/caddy-php-sdk",
+  "version": "0.1.0",
+  "type": "sdk",
+  "description": "This project allows developers to interact with the Caddy web server through PHP classes",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Pavlusha311245/nginx-unit-php-sdk",
+  "keywords": [
+    "caddy",
+    "web server",
+    "php",
+    "sdk"
+  ],
+  "authors": [
+    {
+      "name": "Pavel Zavadski",
+      "email": "pavel.zavadski@pavlusha.me",
+      "homepage": "https://pavlusha.me/"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "friendsofphp/php-cs-fixer": "^3.46",
+    "guzzlehttp/guzzle": "^7.8.1"
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.26",
+    "phpstan/phpstan": "^1.10",
+    "mockery/mockery": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "CaddyPhpSdk\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
