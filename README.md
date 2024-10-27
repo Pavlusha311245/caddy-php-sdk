@@ -6,6 +6,11 @@
 <b style="font-size: 2rem">PHP SDK for Caddy</b>
 </p>
 
+<p align="center">
+<a href="https://packagist.org/packages/pavlusha/caddy-php-sdk"><img src="https://img.shields.io/packagist/v/Pavlusha/caddy-php-sdk?labelColor=%231e293b&color=%23702963&link=https%3A%2F%2Fpackagist.org%2Fpackages%2Fpavlusha311245%2Funit-php-sdk" alt="packagist link"></a>
+</p>
+
+
 ## About
 
 SDK allows developers to interact with the Caddy web server through php classes. This project will help embed web
