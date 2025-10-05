@@ -28,25 +28,27 @@ server management into your projects
 
 ### Json configuration (classes)
 
-- [ ] Admin section
+- [x] Admin section
     - [x] Disabled
     - [x] Listen
     - [x] EnforceOrigin
     - [x] Origins
-    - [ ] Config
+    - [x] Config
     - [x] Identity
     - [x] Remote
 - [ ] Logging section
-    - [ ] Sink
-    - [ ] Logs
+    - [x] Sink
+    - [ ] Logs (Partial)
 - [x] Storage section
-    - [ ] File System
+    - [x] File System
 - [ ] Apps section
-    - [ ] Events
+    - [x] Events
     - [ ] Http
     - [ ] Pki
     - [ ] Tls
 - [ ] Additional modules
+
+- [ ] Request/Response
 
 ## Changelog
 
